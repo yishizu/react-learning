@@ -21,6 +21,7 @@
         const title = "Welcome to my website"
         const subtitle = "This is my reat learning website"
         const address = "https://reactjs.org/docs/introducing-jsx.html"
+        
         const Banner = () =>{
             return (
                 <div className="banner">
@@ -30,6 +31,7 @@
                     <p> Today's date is: {new Date().toLocaleDateString()}</p>
                     <p> Random number is: {Math.random()}</p>
                     <a href = {address}>React website</a>
+                    <button onClick = {(e)=>console.log(e)}>Click</button>
                 </div>
             )
         }
